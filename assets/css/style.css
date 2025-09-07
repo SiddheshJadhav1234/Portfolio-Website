@@ -1,0 +1,180 @@
+/* Tailwind utilities are via CDN. This file is for custom tweaks. */
+:root {
+  --red: #ef4444;
+}
+
+.section { padding: 80px 16px; max-width: 72rem; margin: 0 auto; }
+.section-title { 
+  font-size: 1.75rem; 
+  font-weight: 800; 
+  margin-bottom: 20px; 
+  background: linear-gradient(90deg,#fff,#ef4444); 
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent; 
+}
+.btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #404040;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: #ef4444; /* Solid red */
+  color: #fff;
+}
+.btn-primary:hover {
+  border: 1px solid #fdffff;
+  box-shadow: 0 0 1px 1px #fbfdfd, 0 0 1px 1px #6b7070;
+  transform: scale(1.05);
+}
+
+.btn-secondary {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #404040;
+  transition: background 0.2s;
+}
+.btn-secondary:hover {
+  background: #262626;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.75rem;
+  background: rgba(23,23,23,0.6);
+  border: 1px solid #262626;
+  outline: none;
+}
+
+.card {
+  border-radius: 1rem;
+  border: 1px solid #262626;
+  padding: 1rem 1.5rem;
+  background: rgba(23,23,23,0.5);
+}
+
+.project-card {
+  position: relative;
+  border-radius: 1rem;
+  border: 1px solid #262626;
+  padding: 1.25rem;
+  background: rgba(23,23,23,0.5);
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+.project-card:hover {
+  background: #171717;
+  transform: scale(1.03);
+  box-shadow: 0 0 1px 2px #f6f7f8, 0 0 1px 1px #bec3c4;
+}
+
+.project-badge {
+  position: absolute;
+  top: -0.75rem;
+  left: 1rem;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: #262626;
+  border: 1px solid #404040;
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+}
+.project-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.project-desc {
+  color: #d4d4d4;
+  margin-top: 0.25rem;
+}
+.project-points {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  color: #d4d4d4;
+}
+
+.nav-link {
+  color: #e5e5e5;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #f80505;
+  text-decoration: underline;
+}
+.nav-link.active {
+  color: #ef4444; /* Active highlight */
+  font-weight: 700;
+  border-bottom: 2px solid #ef4444;
+}
+.nav{
+   color: #f7f5f5;
+  
+}
+
+.nav:hover{
+   color: #f80505;
+  text-decoration: underline;
+  
+}
+/* Neon border */
+.about-neon {
+  border: 1px solid #f0f5f5;
+  box-shadow: 0 0 1px 1px #e8eded, 0 0 1px 1px #f6f6f6;
+  transition: transform 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s cubic-bezier(.4,0,.2,1);
+}
+.about-neon:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 1px 1px #f0f3f3, 0 0 1px 1px #f1f2f2;
+}
+
+/* Header hover effect */
+header {
+  transition: transform 0.3s cubic-bezier(.4,0,.2,1), box-shadow 0.3s cubic-bezier(.4,0,.2,1);
+}
+header:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 1px 1px #b33904, 0 0 1px 1px #e81a0788;
+}
+
+/* Profile photo hover animation */
+img.rounded-full:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 3px 0 #b33904, 0 0 16px 4px #e81a0788;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #1f2937; /* Tailwind's neutral-800 */
+  color: #f3f4f6;            /* Tailwind's gray-100 */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover {
+  background-color: #374151; /* Tailwind's neutral-700 */
+}
+
+.card {
+  background-color: #222324; /* Tailwind's neutral-800 */
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  cursor: default;
+  box-shadow: 0 0 0 transparent;
+}
+
+.card:hover {
+  background-color: #26282b; /* Tailwind's neutral-700 */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  border: 1px solid #d4d4d4;
+}

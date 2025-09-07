@@ -3,7 +3,7 @@
 A responsive personal portfolio website built using **HTML**, **Tailwind CSS**, and **JavaScript**. This site showcases my skills, projects, and resume, and includes a fully functional contact form powered by **EmailJS**.
 
 ## 🚀 Live Preview
-[Visit My Portfolio](https://portfolio-website-siddheshjadhav.netlify.app/)  
+[Visit My Portfolio]((https://portfolio-website-siddheshjadhav.netlify.app/))  
 *(Replace with your actual Netlify URL)*
 
 ## 📌 Features

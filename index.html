@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siddhesh Jadhav — Portfolio</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+  <meta name="description" content="Portfolio of Siddhesh Jadhav, Computer Science student — projects, skills, contact."/>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-neutral-950 text-neutral-100 font-[Inter] overflow-x-hidden">
+  <!-- Background container for Vanta.js -->
+  <div id="vanta-bg" class="fixed inset-0 -z-10"></div>
+
+  <!-- Navbar --><div id="Navbar">
+
+  
+  <header class="sticky top-0 backdrop-blur supports-[backdrop-filter]:bg-neutral-950/60 bg-neutral-900/40 z-50 border-b border-neutral-800">
+    <nav class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="#" class="text-lg font-bold tracking-wide">SJ<span class="text-red-500"></span></a>
+      <button id="menuBtn" aria-label="Toggle menu" class="md:hidden px-3 py-2 border rounded border-neutral-700">Menu</button>
+
+
+      <ul id="navLinks" class="hidden md:flex gap-6 text-sm">
+        <li><a href="#home" class="nav">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <a href="assets/img/Siddhesh Jadhav Resume.pdf" class="nav-link">Resume</a>
+
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact <i class="ri-contacts-line"></i></a></li>
+      </ul>
+    </nav>
+    <ul id="mobileMenu" class="md:hidden hidden px-4 pb-4 space-y-2 border-t border-neutral-800">
+      <li><a href="#home" class="nav-link block py-2">Home</a></li>
+      <li><a href="#about" class="nav-link block py-2">About</a></li>
+      <a href="assets/img/Siddhesh Jadhav Resume.pdf" class="nav-link">Resume</a>
+      <li><a href="#projects" class="nav-link block py-2">Projects</a></li>
+      <li><a href="#contact" class="nav-link block py-2">Contact</a></li>
+    </ul>
+  </header>
+  </div>
+
+  <!-- Hero -->
+  <section id="home" class="max-w-6xl mx-auto px-4 pt-16 md:pt-24">
+    <div class="grid md:grid-cols-2 gap-8 items-center">
+      <div>
+        <!-- Avatar above Hello, I'm -->
+        <div class="flex flex-col items-start mb-4">
+          <img 
+          src="https://img.freepik.com/premium-photo/memoji-handsome-guy-man-with-glasses-white-background-emoji-cartoon-character_826801-6957.jpg"
+             alt="Cartoon avatar of Siddhesh Jadhav"
+              class="w-40 h-40 rounded-full border-4 border-neutral-800 shadow-lg mb-2 transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+          />
+
+          <p class="uppercase tracking-widest text-xs text-neutral-400">Hello, I'm</p>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-black leading-tight">
+          Siddhesh <span class="text-red-500">Jadhav</span>
+        </h1>
+      
+        <p class="mt-4 text-neutral-300 max-w-xl">
+          I'm a passionated Diploma 3rd-year Computer Science student. I build clean, performant web apps and simple AI tools.
+          Focused on front-end, basic back-end, and practical problem solving.
+        </p>
+        <div class="mt-6 flex gap-3">
+            <a href="#projects" class="btn-primary">View Projects</a>
+             <a href="#contact" class="btn-secondary">Contact Me</a>
+        </div>
+
+      </div>
+      <div class="about-neon rounded-2xl p-6 bg-neutral-900/40 shadow-xl">
+        <h3 class="text-lg font-semibold mb-2">Highlighted Tech</h3>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          <div class="card">HTML • CSS • JavaScript</div>
+          <div class="card">C language (DSA) • C++</div>
+          <div class="card">Python • Java</div>
+          <div class="card">SQLite • MySQL</div>
+          <div class="card">React.js  </div>
+          <div class="card">Node.js  </div>
+        </div>
+        <!-- <p class="mt-4 text-xs text-neutral-400">Dark theme • Gradients • Subtle animations</p> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <div class="about-neon bg-neutral-900/60 rounded-2xl shadow-xl p-8 flex flex-col md:flex-row items-center md:items-start gap-8 max-w-5xl mx-auto">
+      <img 
+         src="assets/img/sidprof.jpg" 
+         alt="Profile" 
+         class="w-48 h-48 rounded-full object-cover border-4 border-neutral-800 shadow-lg transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+      />
+      <div class="space-y-4 max-w-3xl pl-4 md:pl-8">
+        <p>
+          I'm a learner who enjoys building small but useful projects. I enjoy turning ideas into real applications, whether it’s a web app, a simple AI tool, or a productivity script. My learning approach is hands-on: I believe the best way to grow is by experimenting, making mistakes, and improving with every project.
+        </p>
+        <p>
+          I’m comfortable with both frontend and backend basics, and I love exploring new frameworks and libraries. My strengths include writing clean, readable code, documenting my work clearly, and collaborating with others. I’m always eager to learn from feedback and open to new challenges.
+        </p>
+        <p>
+          Currently, I’m looking for an internship or entry-level opportunity where I can contribute to real-world projects, learn from experienced developers, and grow my skills in a professional environment.
+        </p>
+        <p>
+          My goal is to get an internship where I can contribute to real-world code bases and grow faster.
+        </p>
+        <div class="text-center mt-6">
+  <a href="assets/img/Siddhesh Jadhav Resume.pdf" download class="btn-primary inline-block">
+    📄 Download Resume
+  </a>
+</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mx-auto px-4">
+  <!-- About Section -->
+  <section id="about" class="section">
+    <!-- About content here -->
+  </section>
+
+  
+
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Project Card 1 -->
+      <article class="project-card about-neon">
+        <div class="project-badge">Web</div>
+        <h3 class="project-title">Portfolio Website</h3>
+        <p class="project-desc">Responsive portfolio with animated background (Vanta.js), smooth scroll and Tailwind components.</p>
+        <ul class="project-points">
+          <li>Deployed on Netlify/Vercel</li>
+          <li>Clean, semantic HTML and reusable CSS classes</li>
+        </ul>
+       <div class="mt-3 flex gap-2">
+    <a href="https://YOUR_NETLIFY_PALETTE_URL" target="_blank" class="btn-primary">Demo</a>
+    <a href="https://github.com/YOUR_USER/palette-extractor" target="_blank" class="btn-secondary">Code</a>
+  </div>
+      </article>
+
+     <!-- Project: Expense Tracker -->
+     <article class="project-card about-neon">
+       <div class="project-badge">Mobile/Web</div>
+       <h3 class="project-title">Expense Tracker</h3>
+       <p class="project-desc">Track daily expenses with categories, budget alerts and local storage persistence.</p>
+       <ul class="project-points">
+          <li>PWA-ready (installable)</li>
+          <li>Simple charts for monthly spend</li>
+        </ul>
+        <div class="mt-3 flex gap-2">
+    <a href="https://tubular-platypus-38dd42.netlify.app/" target="_blank" class="btn-primary">Demo</a>
+    <a href="https://github.com/SiddheshJadhav1234/expense-tracker" target="_blank" class="btn-secondary">Code</a>
+  </div>
+      </article>
+    </div>
+  </section>
+
+<!-- Capstone Project Card 3
+<article class="project-card about-neon">
+  <span class="project-badge">Frontend</span>
+  <h3 class="project-title">Capstone Project </h3>
+  <p class="project-desc"></p>
+  <ul class="project-points">
+    <li>Current Status:Working...</li>
+  </ul>
+  <div class="mt-3 flex gap-2">
+    <a href="https://YOUR_NETLIFY_PALETTE_URL" target="_blank" class="btn-primary">Demo</a>
+    <a href="https://github.com/YOUR_USER/palette-extractor" target="_blank" class="btn-secondary">Code</a>
+  </div>
+</article> -->
+
+      <!-- Project Card 4
+      <article class="project-card about-neon">
+        <div class="project-badge">Mobile/Web</div>
+        <h3 class="project-title">Expense Tracker</h3>
+        <p class="project-desc">Track daily expenses with categories, budget alerts and local storage persistence.</p>
+        <ul class="project-points">
+          <li>PWA-ready (installable)</li>
+          <li>Simple charts for monthly spend</li>
+        </ul>
+        <div class="mt-3 flex gap-2">
+    <a href="https://YOUR_NETLIFY_PALETTE_URL" target="_blank" class="btn-primary">Demo</a>
+    <a href="https://github.com/YOUR_USER/palette-extractor" target="_blank" class="btn-secondary">Code</a>
+  </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+<section id="contact" class="section">
+  <h2 class="section-title">Contact</h2>
+  <form id="contactForm" class="about-neon max-w-xl space-y-3 p-6 bg-neutral-900/40 rounded-2xl shadow-xl">
+    <div class="grid sm:grid-cols-2 gap-3">
+      <input class="input" placeholder="Your Name" name="name" required />
+      <input class="input" placeholder="Email" type="email" name="email" required />
+    </div>
+    <input class="input" placeholder="Subject" name="subject" required />
+    <textarea class="input h-32" placeholder="Message" name="message" required></textarea>
+    <div class="flex items-center gap-3">
+      <button type="submit" class="btn-primary">Send</button>
+      <span id="contactStatus" class="text-sm text-neutral-300"></span>
+    </div>
+  </form>
+</section>
+
+  <footer class="py-8 text-center text-xs text-neutral-400 border-t border-neutral-800">
+    © <span id="year"></span> Siddhesh Jadhav. Built with Tailwind & Vanta.js.
+  </footer>
+
+  <!-- Vanta.js & three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+
+
+
+  <!-- Chart.js for small charts if needed later -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- EmailJS (optional) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
